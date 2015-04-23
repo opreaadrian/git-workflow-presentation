@@ -7,3 +7,7 @@ App.prototype.doSomethingAsync = function() {
         console.log('Async operation finished'); 
     }, 2000);
 };
+
+App.prototype.sayFoo =function(message) {
+    console.log("FOOOOOOO!!! ", message);
+};
